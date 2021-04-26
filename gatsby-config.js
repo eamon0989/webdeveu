@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
-plugins: [`gatsby-plugin-netlify-cms`];
+// plugins: [`gatsby-plugin-netlify-cms`];
 
 module.exports = {
   siteMetadata: {
@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-netlify-cms',
     {
       resolve: 'gatsby-plugin-sharp',
       options: {
